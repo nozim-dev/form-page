@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="Login_container">
+      <div class="login_main">
+        <h1>Login</h1>
+        <form action="">
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <div class="login_main_password">
+            <input
+              type="password"
+              name="cfpassword"
+              id="cfpassword"
+              placeholder="Password"
+            />
+            <i class="fa-solid fa-eye eye"></i>
+          </div>
+          <p class="message"></p>
+          <a class="forgotPs" href="">Forgot Password?</a>
+          <button id="btn_login">Login</button>
+        </form>
+        <p>Don't have an account?<a href="./signUp.html">Signup</a></p>
+        <div class="login_main_rule">
+          <div class="border"></div>
+          <p>Or</p>
+          <div class="border"></div>
+        </div>
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          Login with Facebook
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          Login with Google
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/login.js"></script>
+  </body>
+</html>

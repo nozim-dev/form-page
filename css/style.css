@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Login_container {
+  width: 100%;
+  height: 100vh;
+  background-color: #4071f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.signUp_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #4071f4;
+}
+.signUp_main {
+  background-color: #fff;
+  padding: 33px 17px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+.login_main {
+  background-color: #fff;
+  padding: 33px 17px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+.signUp_main > h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.login_main > h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 12px;
+  border-radius: 6px;
+  border-color: gray;
+  outline: none;
+  border-style: solid;
+  padding: 12px 18px;
+  display: block;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 12px;
+}
+.signUp_main > input:first-of-type {
+  margin-top: 40px;
+}
+.login_main > input:first-of-type {
+  margin-top: 40px;
+}
+.signUp_main > input[type="email"] {
+  width: 100%;
+  padding-left: 12px;
+}
+.login_main > input[type="email"] {
+  width: 100%;
+  padding-left: 12px;
+}
+#cfpassword {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+.signUp_main_password > i {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login_main_password > i {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.signUp_main_password > i:hover {
+  opacity: 0.6;
+}
+.login_main_password > i:hover {
+  opacity: 0.6;
+}
+.signUp_main_password {
+  border: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  align-items: center;
+  margin-top: 12px;
+  border-radius: 6px;
+  padding-left: 12px;
+}
+.login_main_password {
+  border: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  align-items: center;
+  margin-top: 12px;
+  border-radius: 6px;
+  padding-left: 12px;
+}
+button {
+  width: 100%;
+  display: block;
+  margin-top: 12px;
+  padding: 12px 18px;
+  background-color: #4071f4;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+button:hover {
+  opacity: 0.8;
+}
+button.facebook {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background-color: #1c4ac6;
+}
+button.facebook > i {
+  font-size: 24px;
+}
+button.google > i {
+  font-size: 24px;
+}
+button.google {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background-color: #fff;
+  border: 2px solid gray;
+  color: gray;
+}
+.signUp_main > p:first-of-type {
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.login_main > p:first-of-type {
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.signUp_main > p:first-of-type > a {
+  text-decoration: none;
+  color: #4071f4;
+}
+.forgotPs {
+  font-size: 14px;
+  text-decoration: none;
+  color: #4071f4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  display: block;
+  margin-bottom: 25px;
+}
+.signUp_main_rule {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.login_main > p:first-of-type > a {
+  text-decoration: none;
+  color: #4071f4;
+}
+.login_main_rule {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.border {
+  height: 0.5px;
+  width: 100%;
+  background-color: gray;
+}
+.signUp_main_rule > p {
+  color: gray;
+}
+.login_main_rule > p {
+  color: gray;
+}
+.errorPassword {
+  border-color: red !important;
+}
+.SamePassword {
+  border-color: rgb(50, 254, 50) !important;
+}
+.message {
+  font-size: 14px;
+  color: red;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-left: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.deleted_btn {
+  max-width: 160px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 400px) {
+  .Login_container {
+    padding: 10px;
+  }
+  .signUp_container {
+    padding: 10px;
+  }
+  button.facebook {
+    gap: 20px;
+  }
+  button.google {
+    gap: 20px;
+  }
+}

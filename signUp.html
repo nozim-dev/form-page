@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="signUp_container">
+      <div class="signUp_main">
+        <h1>Signup</h1>
+        <form action="">
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <input
+            type="password"
+            name="crpassword"
+            id="crpassword"
+            placeholder="Create password"
+          />
+          <div class="signUp_main_password">
+            <input
+              type="password"
+              name="cfpassword"
+              id="cfpassword"
+              placeholder="Confirm password"
+            />
+            <i class="fa-solid fa-eye eye"></i>
+          </div>
+          <button id="btn_registration" disabled>Signup</button>
+        </form>
+        <p>Already have an account? <a href="./login.html">Login</a></p>
+        <div class="signUp_main_rule">
+          <div class="border"></div>
+          <p>Or</p>
+          <div class="border"></div>
+        </div>
+        <button class="facebook">
+          <i class="fa-brands fa-facebook"></i>
+          Login with Facebook
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i>
+          Login with Google
+        </button>
+      </div>
+    </div>
+    <script src="./js/signUp.js"></script>
+  </body>
+</html>
