@@ -5,6 +5,14 @@ deleted_btn.addEventListener("click", () => {
     window.location.pathname = "signUp.html";
 })
 
+window.addEventListener("DOMContentLoaded", () => {
+    if (localStorage.getItem("user")) {
+        window.location.pathname = "index.html";
+    } else {
+        window.location.pathname = "signUp.html";
+    }
+})
+
 // LocalStorageni objectlari:
 
 // clear() - tozalaydi localStorageni hammasini
