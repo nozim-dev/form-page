@@ -11,7 +11,7 @@ btn_login.addEventListener("click", (e) => {
     let userData = JSON.parse(localStorage.getItem("user")) ? JSON.parse(localStorage.getItem("user")) : false;
 
     if (userData.email === email.value && userData.parol === cfpassword.value) {
-        window.location.pathname = "index.html";
+        window.location.pathname = "Main.html";
     } else {
         message.innerHTML = "Error! Email or password incorrect.";
     }
