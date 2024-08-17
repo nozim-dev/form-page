@@ -1,10 +1,3 @@
-let deleted_btn = document.querySelector(".deleted_btn");
-
-deleted_btn.addEventListener("click", () => {
-    localStorage.clear();
-    window.location.pathname = "signUp.html";
-})
-
 window.addEventListener("DOMContentLoaded", () => {
     if (localStorage.getItem("user")) {
         window.location.pathname = "index.html";
@@ -12,6 +5,13 @@ window.addEventListener("DOMContentLoaded", () => {
         window.location.pathname = "signUp.html";
     }
 })
+let deleted_btn = document.querySelector(".deleted_btn");
+
+deleted_btn.addEventListener("click", () => {
+    localStorage.clear();
+    window.location.pathname = "signUp.html";
+})
+
 
 // LocalStorageni objectlari:
 
